@@ -5,7 +5,7 @@ pipeline{
         }
     }
     stages {
-        statge('build') {
+        stage('build') {
             steps {
                 sh 'python --version'
             }
